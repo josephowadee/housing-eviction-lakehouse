@@ -171,7 +171,7 @@ housing-eviction-lakehouse/
 ---
 
 ## Production Considerations
-In a production DHCR environment, this pipeline would be extended with:
+In a production environment, this pipeline would be extended with:
 - Scheduled Databricks Jobs
 - Incremental ingestion via authenticated APIs
 - CI/CD for notebook promotion
