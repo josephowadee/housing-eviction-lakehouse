@@ -8,12 +8,16 @@ The design mirrors how a public-sector data warehouse or lakehouse would be buil
 ---
 
 ## Data Source
-- **NYC Open Data – Evictions Dataset**
-- Platform: Socrata
-- Access Method: **SODA2 CSV API**
-- Ingestion Strategy: **Point-in-time snapshot**
 
-The snapshot-based approach preserves auditability. In a production environment, this pipeline would be scheduled and extended to incremental ingestion using authenticated Socrata APIs.
+**NYC Open Data – Evictions Dataset (Socrata)**
+
+- Dataset page: https://data.cityofnewyork.us/Housing-Development/Evictions/6z8x-wfk4  
+- SODA2 CSV API (snapshot export used for ingestion): https://data.cityofnewyork.us/resource/6z8x-wfk4.csv?$limit=200000  
+- OData v4 endpoint (alternate interface): https://data.cityofnewyork.us/api/odata/v4/6z8x-wfk4  
+- Socrata API docs: https://dev.socrata.com/
+
+**Ingestion Strategy:** Point-in-time snapshot for auditability.  
+In a production environment, this pipeline would be scheduled and extended to incremental ingestion using authenticated Socrata APIs and/or OData for change-based sync patterns.
 
 ---
 
