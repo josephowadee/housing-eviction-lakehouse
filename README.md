@@ -50,6 +50,8 @@ v
 Databricks SQL / BI
 Dashboards & Reports
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ee5d27ad-198a-4987-9177-7fd38e080f93" />
+
 ---
 
 ## Medallion Layers
