@@ -119,6 +119,9 @@ This pattern supports:
 - Early detection of ingestion or schema issues
 - Transparency for regulated environments
 
+<img width="986" height="468" alt="data quality" src="https://github.com/user-attachments/assets/02729b22-bf1a-4813-a498-6e025bd14305" />
+ 
+
 ---
 
 ## Dashboards
